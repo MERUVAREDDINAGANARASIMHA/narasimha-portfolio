@@ -1,0 +1,38 @@
+{
+  "name": "Narasimha",
+  "title": "Data Analyst",
+  "about": "A results-driven analyst with 2.5+ years of experience in marketing, business intelligence, and automation. Skilled in Python, SQL, and Power BI with a strong foundation in report building, NLP, and performance tracking.",
+  "email": "meruvareddy04@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/meruva-reddi-naga-narasimha-5033a1193",
+  "skills": [
+    "Python", "SQL", "Power BI", "HTML", "Excel",
+    "Google AdWords", "Facebook Ads", "Data mining",
+    "Marketing Analytics", "Automation"
+  ],
+  "projects": [
+    {
+      "title": "ROMI Power BI Dashboard",
+      "description": "Created a ROMI dashboard by integrating sales, revenue, and campaign spend from ADF using optimized SQL. Improved reporting efficiency by 70% and enhanced insights delivery with UX improvements."
+    },
+    {
+      "title": "VOC Market Competitor Analysis",
+      "description": "Scraped and analyzed article data from 12 competitors using Python, Pandas, and Selenium. Mapped keywords to industries and built Power BI dashboards to visualize MoM trends and competitor strategy."
+    },
+    {
+      "title": "Sentiment Analysis",
+      "description": "Analyzed 100K+ reviews using NLTK and TextBlob to identify sentiment distribution and UI/support issues. Helped optimize product and marketing, leading to a 15% sales increase."
+    },
+    {
+      "title": "Cohort Analysis",
+      "description": "Performed retention analysis across customer cohorts and purchase timings. Early purchasers showed 20% higher lifetime value, informing customer strategy."
+    },
+    {
+      "title": "SOV (Share of Voice) Analysis",
+      "description": "Conducted keyword analysis across 100+ search terms to refine marketing strategy and increase website traffic by 15%."
+    },
+    {
+      "title": "Report Automation",
+      "description": "Automated daily/weekly/monthly reports for ad platforms using Python and SQL. Reduced manual workload by 10+ hours/week and improved reporting consistency."
+    }
+  ]
+}
