@@ -1,38 +1,65 @@
 {
-  "name": "Narasimha",
+  "name": "MERUVA REDDI NAGA NARASIMHA",
   "title": "Data Analyst",
-  "about": "A results-driven analyst with 2.5+ years of experience in marketing, business intelligence, and automation. Skilled in Python, SQL, and Power BI with a strong foundation in report building, NLP, and performance tracking.",
+  "about": "A dedicated analytics, business, and marketing professional with over 2.5 years of experience, known for delivering results. Proficient in identifying patterns and extracting meaningful insights from past data, leading to tangible and effective business strategies.",
   "email": "meruvareddy04@gmail.com",
   "linkedin": "https://www.linkedin.com/in/meruva-reddi-naga-narasimha-5033a1193",
-  "skills": [
-    "Python", "SQL", "Power BI", "HTML", "Excel",
-    "Google AdWords", "Facebook Ads", "Data mining",
-    "Marketing Analytics", "Automation"
+  "certifications": [
+    "Python for Everybody",
+    "Mastering Data Analysis in Excel",
+    "SQL for Data Analytics",
+    "Microsoft Power BI",
+    "Alteryx"
+  ],
+  "experience": [
+    {
+      "title": "Associate Ops & Analytics",
+      "company": "Grant Thornton",
+      "date": "May 2024 – Present",
+      "responsibilities": [
+        "Created a ROMI Power BI dashboard by integrating sales, revenue, and campaign spend data from ADF using optimized SQL queries.",
+        "Designed an interactive MoM analysis dashboard with improved UI/UX for US stakeholders.",
+        "Achieved a 70% improvement in reporting efficiency for faster decision-making.",
+        "Developed a Competitors Contents Dashboard using Python, Pandas, and Selenium to scrape competitor content."
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Hiveminds",
+      "date": "June 2022 – May 2024",
+      "responsibilities": [
+        "Designed a centralized Power BI dashboard to track clicks, orders, and revenue.",
+        "Utilized NLTK and TextBlob for sentiment analysis of 100,000 reviews.",
+        "Automated reports, saving 10+ hours per week and boosting team efficiency by 20%.",
+        "Conducted Share of Voice (SOV) analysis and competitor keyword analysis."
+      ]
+    }
   ],
   "projects": [
     {
       "title": "ROMI Power BI Dashboard",
-      "description": "Created a ROMI dashboard by integrating sales, revenue, and campaign spend from ADF using optimized SQL. Improved reporting efficiency by 70% and enhanced insights delivery with UX improvements."
+      "description": "Created a ROMI dashboard by integrating sales, revenue, and campaign spend from ADF using optimized SQL."
     },
     {
-      "title": "VOC Market Competitor Analysis",
-      "description": "Scraped and analyzed article data from 12 competitors using Python, Pandas, and Selenium. Mapped keywords to industries and built Power BI dashboards to visualize MoM trends and competitor strategy."
+      "title": "Competitors Contents Dashboard",
+      "description": "Scraped and analyzed competitor article data using Python, Pandas, and Selenium to build an interactive Power BI dashboard."
     },
     {
       "title": "Sentiment Analysis",
-      "description": "Analyzed 100K+ reviews using NLTK and TextBlob to identify sentiment distribution and UI/support issues. Helped optimize product and marketing, leading to a 15% sales increase."
-    },
-    {
-      "title": "Cohort Analysis",
-      "description": "Performed retention analysis across customer cohorts and purchase timings. Early purchasers showed 20% higher lifetime value, informing customer strategy."
+      "description": "Analyzed 100K+ reviews using NLTK and TextBlob to identify sentiment distribution."
     },
     {
       "title": "SOV (Share of Voice) Analysis",
-      "description": "Conducted keyword analysis across 100+ search terms to refine marketing strategy and increase website traffic by 15%."
-    },
-    {
-      "title": "Report Automation",
-      "description": "Automated daily/weekly/monthly reports for ad platforms using Python and SQL. Reduced manual workload by 10+ hours/week and improved reporting consistency."
+      "description": "Conducted keyword analysis across 100+ search terms to refine marketing strategy."
     }
-  ]
+  ],
+  "skills": [
+    "Python", "SQL", "Power BI", "HTML", "Excel", "Google AdWords", "Facebook Ads", "Data mining", "Marketing Analytics", "Automation"
+  ],
+  "achievements": [
+    "Best Performer in Marketing Analyst Team – Hiveminds, Aug '22",
+    "Participated in the Hold the Load event – Builder’s Hive, NIT Trichy",
+    "Qualified for the QUIZZES event – Sairam College"
+  ],
+  "hobbies": "Cricket, Badminton, Carroms"
 }
