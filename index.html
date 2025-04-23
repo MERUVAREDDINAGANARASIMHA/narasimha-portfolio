@@ -3,25 +3,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Narasimha | Data Analyst</title>
+  <title>MERUVA REDDI NAGA NARASIMHA | Data Analyst</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://source.unsplash.com/1600x900/?technology,analytics');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 50px;
+      border-radius: 10px;
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      font-family: 'Helvetica Neue', sans-serif;
+      color: #fff;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .button {
+      background-color: #ff6600;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #e65c00;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 font-sans text-gray-800">
-  <div class="max-w-4xl mx-auto px-6 py-10">
-    <h1 class="text-4xl font-bold text-blue-700" id="name"></h1>
-    <p class="text-lg mt-2" id="title"></p>
-    <p class="mt-6" id="about"></p>
+<body>
 
-    <h2 class="text-2xl font-semibold mt-10">Projects</h2>
-    <ul class="mt-2 space-y-3" id="projects"></ul>
+  <div class="content">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold mb-4" id="name"></h1>
+      <p class="text-xl mb-6" id="title"></p>
+      <p class="text-lg mb-6" id="about"></p>
 
-    <h2 class="text-2xl font-semibold mt-10">Skills</h2>
-    <ul class="mt-2 flex flex-wrap gap-2" id="skills"></ul>
+      <a href="#contact" class="button">Contact Me</a>
+    </div>
 
-    <h2 class="text-xl font-semibold mt-10">Contact</h2>
-    <p>Email: <a href="#" id="email" class="text-blue-600 underline"></a></p>
-    <p><a href="#" id="linkedin" class="text-blue-600 underline" target="_blank">LinkedIn</a></p>
+    <h2 class="text-3xl font-semibold mt-10">Education</h2>
+    <ul class="space-y-2 mt-4">
+      <li><strong>National Institute of Technology, Tiruchirappalli:</strong> Graduated with High Honors, CGPA: 7.41/10</li>
+      <li><strong>Sri Chaitanya College:</strong> Achieved 92.6% in Class 12, Campus Top Ranker in JEE Exam</li>
+    </ul>
+
+    <h2 class="text-3xl font-semibold mt-10">Certifications</h2>
+    <ul class="space-y-2 mt-4" id="certifications"></ul>
+
+    <h2 class="text-3xl font-semibold mt-10">Professional Experience</h2>
+    <div id="experience"></div>
+
+    <h2 class="text-3xl font-semibold mt-10">Projects</h2>
+    <ul class="space-y-3 mt-4" id="projects"></ul>
+
+    <h2 class="text-3xl font-semibold mt-10">Skills</h2>
+    <ul class="flex flex-wrap gap-4 mt-4" id="skills"></ul>
+
+    <h2 class="text-3xl font-semibold mt-10">Achievements</h2>
+    <ul class="space-y-2 mt-4" id="achievements"></ul>
+
+    <h2 class="text-3xl font-semibold mt-10" id="contact">Contact</h2>
+    <p>Email: <a href="mailto:meruvareddy04@gmail.com" class="text-blue-300">meruvareddy04@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/meruva-reddi-naga-narasimha-5033a1193" target="_blank" class="text-blue-300">LinkedIn</a></p>
+
+    <h2 class="text-3xl font-semibold mt-10">Hobbies</h2>
+    <p id="hobbies"></p>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
